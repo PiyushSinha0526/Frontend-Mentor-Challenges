@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+
+  /* Gradients */
+  --bg-Light-slate-blue: hsl(252, 100%, 67%);
+  --bg-Light-royal-blue: hsl(241, 81%, 54%);
+  --circle-Violet-blue: hsla(256, 72%, 46%, 1);
+  --circle-Persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --neutral-White: hsl(0, 0%, 100%);
+  --neutral-Pale-blue: hsl(221, 100%, 96%);
+  --neutral-Light-lavender: hsl(241, 100%, 89%);
+  --neutral-Dark-gray-blue: hsl(224, 30%, 27%);
+}
